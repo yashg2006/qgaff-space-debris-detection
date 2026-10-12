@@ -1,0 +1,46 @@
+[
+  {
+    "model": "YOLOv8n (nano)",
+    "params": "3.2M",
+    "feat_dim": 256,
+    "sil_before": -0.6054392457008362,
+    "sil_after": 0.5410802364349365,
+    "improvement": 189.36986466988964,
+    "n_samples": 53,
+    "n_classes": 16,
+    "status": "OK"
+  },
+  {
+    "model": "YOLOv8s (small)",
+    "params": "11.2M",
+    "feat_dim": 512,
+    "sil_before": -0.6023252606391907,
+    "sil_after": 0.3504573404788971,
+    "improvement": 158.18406794447725,
+    "n_samples": 56,
+    "n_classes": 22,
+    "status": "OK"
+  },
+  {
+    "model": "YOLOv8m (medium)",
+    "params": "25.9M",
+    "feat_dim": 576,
+    "sil_before": -0.5307158827781677,
+    "sil_after": 0.5254485011100769,
+    "improvement": 199.0074946258265,
+    "n_samples": 44,
+    "n_classes": 24,
+    "status": "OK"
+  },
+  {
+    "model": "YOLOv8x (extra-large)",
+    "params": "68.2M",
+    "feat_dim": 640,
+    "sil_before": -0.3981252610683441,
+    "sil_after": 0.6411494016647339,
+    "improvement": 261.0421296387545,
+    "n_samples": 35,
+    "n_classes": 20,
+    "status": "OK"
+  }
+]

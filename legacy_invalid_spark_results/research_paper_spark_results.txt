@@ -1,0 +1,24 @@
+### 4.X. Cross-Domain Generalization on SPARK-2022 dataset
+
+To evaluate the robustness and zero-shot generalization capabilities of our proposed object detection framework natively trained on the primary space debris dataset, we conducted cross-domain testing on the SPARK-2022-stream-1 dataset. The goal of this phase was to assess if the visual feature representations learned by the model could extrapolate to distinct spacecraft and unencountered orbital backgrounds without any fine-tuning or domain adaptation.
+
+The pre-trained YOLO architecture (`train3` instance) was evaluated across 11 target classes representing specific spacecraft taxonomy and debris structures natively present in the SPARK-2022 configuration. Validation was executed bounding box inference overlapping ground truth targets properly mapped to the internal spatial coordinates. 
+
+**Table X: Cross-Domain Architecture Performance Metrics**
+
+| Metric                  | Value (%) | Description                                                                 |
+|-------------------------|-----------|-----------------------------------------------------------------------------|
+| **Precision (P)**       | 29.34%    | Proportion of predicted space target bounds that correctly matched the GT.  |
+| **Recall (R)**          | 3.26%     | Proportion of actual SPARK-2022 targets successfully localized physically.  |
+| **F1-Score**            | 4.31%     | Harmonic mean bounding intersection reliability considering P and R limits. |
+| **mAP@0.5**             | 3.14%     | Mean Average Precision at 50% Intersection Over Union (IoU) thresholds.     |
+| **mAP@0.5:0.95**        | 1.26%     | Strict average bounding precision averaged over incremental stringency.     |
+
+**Discussion of Findings**
+
+The resulting multi-class metrics (mAP@0.5 = 3.14%, F1-Score = 4.31%) quantitatively illustrate a substantial **Domain Gap** between the native training distribution and the SPARK-2022 unconstrained environment. 
+
+1. **Feature Transfer Vulnerability**: While the model maintained a functional Precision rate of ~29.3%, indicating that the bounding boxes it confidently drew were moderately accurate, it suffered from a restrictive Recall of ~3.3%. This suggests the network encounters severe representation shifts (e.g., discrepancies in illumination, spacecraft geometry, distance scalar variance, or sensor noise profiles) that fail to activate the learned anchors, resulting in a dominant degree of False Negatives (missed detections).
+2. **Background Separation Breakdown**: Analysis of the accompanying normalized confusion matrices confirmed that the model predictably defaults toward the uniform background classification when exposed to novel asset architectures it was not parameterized to understand within SPARK. 
+
+Ultimately, these cross-domain findings reinforce that zero-shot inference across varied space observation conditions presents a significant localized challenge. The drastic performance attenuation signifies that future operational utility will realistically demand targeted domain adaptation techniques, active target-scenario fine-tuning, or robust augmented learning loops bridging the dataset distributions.

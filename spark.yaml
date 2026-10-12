@@ -1,0 +1,20 @@
+# SPARK-2022 stream-1 with CORRECTED labels (spark_yolo/labels_rowcol, CSV read as
+# [rmin, cmin, rmax, cmax]). Image lists go through junctions made by
+# spark_yolo/make_rowcol_dataset.py so Ultralytics picks up labels_rowcol, not the
+# old .txt files that sit next to the images. Run from the project root.
+path: ./
+train: spark_yolo/rowcol_train.txt
+val: spark_yolo/rowcol_val.txt
+
+names:
+  0: debris
+  1: lisa_pathfinder
+  2: soho
+  3: xmm_newton
+  4: cheops
+  5: smart_1
+  6: proba_2
+  7: proba_3_csc
+  8: proba_3_ocs
+  9: earth_observation_sat_1
+  10: double_star

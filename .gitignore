@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Datasets (not redistributed)
+Roboflow Dataset/
+spark-2022-stream-1/
+datasets/
+train/
+valid/
+test/
+spark_yolo/images/
+spark_yolo/labels/
+spark_yolo/labels_rowcol/
+spark_yolo/labels_xyxy/
+spark_yolo/rowcol_*.txt
+spark_label_verify/
+streaks_output/*.jpg
+
+# Training runs and weights
+runs/
+*.pt
+*.pth
+*.onnx
+
+# Arrays, caches, scratch
+*.npy
+*.cache
+_work/
+Revision_Image_Outputs/_work/
+
+# Documents and manuscript
+*.docx
+*.pdf
+~$*
+
+# Images other than the released figures
+*.jpg
+*.jpeg
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/

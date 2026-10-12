@@ -1,0 +1,104 @@
+{
+  "clean_qgaff_sil": 0.6052829623222351,
+  "clean_backbone_sil": -0.09043996036052704,
+  "rows": [
+    {
+      "condition": "Original (clean)",
+      "backbone_silhouette": -0.09043996036052704,
+      "qgaff_silhouette": 0.6052829623222351,
+      "delta": 0.6957229226827621,
+      "note": "Clean Roboflow test set"
+    },
+    {
+      "condition": "Gaussian noise \u03c3=0.05",
+      "backbone_silhouette": -0.18290521701176962,
+      "qgaff_silhouette": null,
+      "delta": null,
+      "note": "perturbed .npy not found; QGAFF could not be applied"
+    },
+    {
+      "condition": "Gaussian noise \u03c3=0.15",
+      "backbone_silhouette": -0.20891566077868143,
+      "qgaff_silhouette": null,
+      "delta": null,
+      "note": "perturbed .npy not found; QGAFF could not be applied"
+    },
+    {
+      "condition": "Gaussian noise \u03c3=0.25",
+      "backbone_silhouette": -0.2753821909427643,
+      "qgaff_silhouette": null,
+      "delta": null,
+      "note": "perturbed .npy not found; QGAFF could not be applied"
+    },
+    {
+      "condition": "Salt-and-pepper 2%",
+      "backbone_silhouette": -0.16201961040496826,
+      "qgaff_silhouette": null,
+      "delta": null,
+      "note": "perturbed .npy not found; QGAFF could not be applied"
+    },
+    {
+      "condition": "Gaussian blur \u03c3=1",
+      "backbone_silhouette": -0.09377723187208176,
+      "qgaff_silhouette": null,
+      "delta": null,
+      "note": "perturbed .npy not found; QGAFF could not be applied"
+    },
+    {
+      "condition": "Gaussian blur \u03c3=2",
+      "backbone_silhouette": -0.2055206596851349,
+      "qgaff_silhouette": null,
+      "delta": null,
+      "note": "perturbed .npy not found; QGAFF could not be applied"
+    },
+    {
+      "condition": "Brightness \u221260%",
+      "backbone_silhouette": -0.17091864347457886,
+      "qgaff_silhouette": null,
+      "delta": null,
+      "note": "perturbed .npy not found; QGAFF could not be applied"
+    },
+    {
+      "condition": "Brightness \u221240% (eclipse)",
+      "backbone_silhouette": -0.09942188858985901,
+      "qgaff_silhouette": null,
+      "delta": null,
+      "note": "perturbed .npy not found; QGAFF could not be applied"
+    },
+    {
+      "condition": "Brightness \u221220%",
+      "backbone_silhouette": -0.09281540662050247,
+      "qgaff_silhouette": null,
+      "delta": null,
+      "note": "perturbed .npy not found; QGAFF could not be applied"
+    },
+    {
+      "condition": "Brightness +30% (glare)",
+      "backbone_silhouette": -0.08201591670513153,
+      "qgaff_silhouette": null,
+      "delta": null,
+      "note": "perturbed .npy not found; QGAFF could not be applied"
+    },
+    {
+      "condition": "Brightness +60%",
+      "backbone_silhouette": -0.08271756768226624,
+      "qgaff_silhouette": null,
+      "delta": null,
+      "note": "perturbed .npy not found; QGAFF could not be applied"
+    },
+    {
+      "condition": "Contrast \u00d70.5",
+      "backbone_silhouette": -0.12267190963029861,
+      "qgaff_silhouette": null,
+      "delta": null,
+      "note": "perturbed .npy not found; QGAFF could not be applied"
+    },
+    {
+      "condition": "Contrast \u00d71.5",
+      "backbone_silhouette": -0.10292494297027588,
+      "qgaff_silhouette": null,
+      "delta": null,
+      "note": "perturbed .npy not found; QGAFF could not be applied"
+    }
+  ]
+}
