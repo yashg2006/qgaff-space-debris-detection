@@ -1,0 +1,218 @@
+================================================================================
+          ZENODO & OPTICAL SPACE DEBRIS STREAKS DETECTION OUTPUT
+================================================================================
+
+IMAGE [01]: img000151_jpg.rf.0ee040a78c56a837f6b9557af0483517.jpg
+  Saved Visualization: streaks_output\streak_det_1_img000151_jpg.rf.0ee040a78c56a837f6b9557af0483517.jpg
+  Image Resolution   : 640x640 px
+  Total Streaks Found: 1
+    - Streak #1: Class=proba_2 (ID=5) | Conf=0.9082 (90.82%) | BBox=[xmin=102.74, ymin=97.08, xmax=538.92, ymax=626.28] | Width=436.18px, Height=529.2px
+--------------------------------------------------------------------------------
+IMAGE [02]: img000167_jpg.rf.994037bec701d9d1ef1de40b8be236cc.jpg
+  Saved Visualization: streaks_output\streak_det_2_img000167_jpg.rf.994037bec701d9d1ef1de40b8be236cc.jpg
+  Image Resolution   : 640x640 px
+  Total Streaks Found: 1
+    - Streak #1: Class=proba_2 (ID=5) | Conf=0.9787 (97.87%) | BBox=[xmin=10.34, ymin=214.73, xmax=508.08, ymax=635.42] | Width=497.74px, Height=420.69px
+--------------------------------------------------------------------------------
+IMAGE [03]: img000216_jpg.rf.29c4eadff13544da7b71108e4d3e09fd.jpg
+  Saved Visualization: streaks_output\streak_det_3_img000216_jpg.rf.29c4eadff13544da7b71108e4d3e09fd.jpg
+  Image Resolution   : 640x640 px
+  Total Streaks Found: 1
+    - Streak #1: Class=proba_2 (ID=5) | Conf=0.9377 (93.77%) | BBox=[xmin=2.38, ymin=0.0, xmax=361.82, ymax=383.99] | Width=359.44px, Height=383.99px
+--------------------------------------------------------------------------------
+IMAGE [04]: img000244_jpg.rf.bfd79fe595745587049a7d45dc51f280.jpg
+  Saved Visualization: streaks_output\streak_det_4_img000244_jpg.rf.bfd79fe595745587049a7d45dc51f280.jpg
+  Image Resolution   : 640x640 px
+  Total Streaks Found: 2
+    - Streak #1: Class=proba_3_csc (ID=6) | Conf=0.8009 (80.09%) | BBox=[xmin=0.61, ymin=207.22, xmax=492.77, ymax=485.16] | Width=492.16px, Height=277.94px
+    - Streak #2: Class=proba_3_csc (ID=6) | Conf=0.4171 (41.71%) | BBox=[xmin=0.05, ymin=132.11, xmax=524.27, ymax=508.41] | Width=524.22px, Height=376.3px
+--------------------------------------------------------------------------------
+IMAGE [05]: img000305_jpg.rf.d29befb126816b910e147bd7601fee48.jpg
+  Saved Visualization: streaks_output\streak_det_5_img000305_jpg.rf.d29befb126816b910e147bd7601fee48.jpg
+  Image Resolution   : 640x640 px
+  Total Streaks Found: 1
+    - Streak #1: Class=proba_2 (ID=5) | Conf=0.8076 (80.76%) | BBox=[xmin=242.27, ymin=156.02, xmax=640.0, ymax=513.48] | Width=397.73px, Height=357.46px
+--------------------------------------------------------------------------------
+IMAGE [06]: img000331_jpg.rf.8fd226e2c35e5bed4c77e066df2214d1.jpg
+  Saved Visualization: streaks_output\streak_det_6_img000331_jpg.rf.8fd226e2c35e5bed4c77e066df2214d1.jpg
+  Image Resolution   : 640x640 px
+  Total Streaks Found: 0
+  -> Status: No optical debris streak detected above conf threshold (0.15)
+--------------------------------------------------------------------------------
+IMAGE [07]: img000401_jpg.rf.2d7abe66e39aa4f6d632234377b684b0.jpg
+  Saved Visualization: streaks_output\streak_det_7_img000401_jpg.rf.2d7abe66e39aa4f6d632234377b684b0.jpg
+  Image Resolution   : 640x640 px
+  Total Streaks Found: 7
+    - Streak #1: Class=proba_2 (ID=5) | Conf=0.9738 (97.38%) | BBox=[xmin=58.55, ymin=2.61, xmax=452.78, ymax=280.43] | Width=394.23px, Height=277.82px
+    - Streak #2: Class=proba_2 (ID=5) | Conf=0.8276 (82.76%) | BBox=[xmin=49.86, ymin=0.0, xmax=371.34, ymax=241.97] | Width=321.48px, Height=241.97px
+    - Streak #3: Class=proba_2 (ID=5) | Conf=0.6879 (68.79%) | BBox=[xmin=183.2, ymin=9.02, xmax=460.17, ymax=260.8] | Width=276.97px, Height=251.78px
+    - Streak #4: Class=proba_2 (ID=5) | Conf=0.3264 (32.64%) | BBox=[xmin=33.16, ymin=0.14, xmax=293.28, ymax=200.34] | Width=260.12px, Height=200.2px
+    - Streak #5: Class=proba_2 (ID=5) | Conf=0.2365 (23.65%) | BBox=[xmin=53.9, ymin=7.08, xmax=295.21, ymax=315.28] | Width=241.31px, Height=308.2px
+    - Streak #6: Class=proba_2 (ID=5) | Conf=0.1710 (17.10%) | BBox=[xmin=50.48, ymin=35.66, xmax=423.02, ymax=351.36] | Width=372.54px, Height=315.7px
+    - Streak #7: Class=proba_2 (ID=5) | Conf=0.1589 (15.89%) | BBox=[xmin=250.79, ymin=76.09, xmax=462.99, ymax=262.46] | Width=212.2px, Height=186.37px
+--------------------------------------------------------------------------------
+IMAGE [08]: img000525_jpg.rf.a23f0ff0c043a185d435530db5b0dc97.jpg
+  Saved Visualization: streaks_output\streak_det_8_img000525_jpg.rf.a23f0ff0c043a185d435530db5b0dc97.jpg
+  Image Resolution   : 640x640 px
+  Total Streaks Found: 1
+    - Streak #1: Class=proba_2 (ID=5) | Conf=0.9903 (99.03%) | BBox=[xmin=271.51, ymin=217.31, xmax=638.88, ymax=566.34] | Width=367.37px, Height=349.03px
+--------------------------------------------------------------------------------
+IMAGE [09]: img000527_jpg.rf.34c36888c2ef67f4cd60e43e506275a4.jpg
+  Saved Visualization: streaks_output\streak_det_9_img000527_jpg.rf.34c36888c2ef67f4cd60e43e506275a4.jpg
+  Image Resolution   : 640x640 px
+  Total Streaks Found: 1
+    - Streak #1: Class=proba_2 (ID=5) | Conf=0.9707 (97.07%) | BBox=[xmin=209.71, ymin=8.82, xmax=626.12, ymax=405.55] | Width=416.41px, Height=396.73px
+--------------------------------------------------------------------------------
+IMAGE [10]: img000549_jpg.rf.470816dce0400f8dfa2967d07eb679cb.jpg
+  Saved Visualization: streaks_output\streak_det_10_img000549_jpg.rf.470816dce0400f8dfa2967d07eb679cb.jpg
+  Image Resolution   : 640x640 px
+  Total Streaks Found: 1
+    - Streak #1: Class=proba_2 (ID=5) | Conf=0.8294 (82.94%) | BBox=[xmin=249.53, ymin=120.11, xmax=637.06, ymax=341.68] | Width=387.53px, Height=221.57px
+--------------------------------------------------------------------------------
+IMAGE [11]: img000558_jpg.rf.ebcbfd72e0ccc81c87c590a3541e8d61.jpg
+  Saved Visualization: streaks_output\streak_det_11_img000558_jpg.rf.ebcbfd72e0ccc81c87c590a3541e8d61.jpg
+  Image Resolution   : 640x640 px
+  Total Streaks Found: 1
+    - Streak #1: Class=proba_2 (ID=5) | Conf=0.9704 (97.04%) | BBox=[xmin=14.46, ymin=0.0, xmax=514.1, ymax=389.3] | Width=499.64px, Height=389.3px
+--------------------------------------------------------------------------------
+IMAGE [12]: img000561_jpg.rf.44780c28deca88eb0e58c1d374f21d32.jpg
+  Saved Visualization: streaks_output\streak_det_12_img000561_jpg.rf.44780c28deca88eb0e58c1d374f21d32.jpg
+  Image Resolution   : 640x640 px
+  Total Streaks Found: 4
+    - Streak #1: Class=proba_2 (ID=5) | Conf=0.7300 (73.00%) | BBox=[xmin=347.87, ymin=77.32, xmax=605.45, ymax=412.25] | Width=257.58px, Height=334.93px
+    - Streak #2: Class=proba_2 (ID=5) | Conf=0.4065 (40.65%) | BBox=[xmin=217.61, ymin=105.38, xmax=583.62, ymax=446.84] | Width=366.01px, Height=341.46px
+    - Streak #3: Class=proba_2 (ID=5) | Conf=0.3873 (38.73%) | BBox=[xmin=374.59, ymin=143.53, xmax=620.83, ymax=407.56] | Width=246.24px, Height=264.03px
+    - Streak #4: Class=proba_2 (ID=5) | Conf=0.2697 (26.97%) | BBox=[xmin=300.17, ymin=157.1, xmax=603.77, ymax=431.9] | Width=303.6px, Height=274.8px
+--------------------------------------------------------------------------------
+IMAGE [13]: img000607_jpg.rf.5c39928724a450a7dbffee5fd0e5b4a3.jpg
+  Saved Visualization: streaks_output\streak_det_13_img000607_jpg.rf.5c39928724a450a7dbffee5fd0e5b4a3.jpg
+  Image Resolution   : 640x640 px
+  Total Streaks Found: 2
+    - Streak #1: Class=proba_2 (ID=5) | Conf=0.8671 (86.71%) | BBox=[xmin=20.04, ymin=226.96, xmax=462.89, ymax=637.48] | Width=442.85px, Height=410.52px
+    - Streak #2: Class=proba_2 (ID=5) | Conf=0.5650 (56.50%) | BBox=[xmin=7.38, ymin=265.62, xmax=378.44, ymax=621.66] | Width=371.06px, Height=356.04px
+--------------------------------------------------------------------------------
+IMAGE [14]: img000628_jpg.rf.6dc9522a3a079da33581d7b05af767a2.jpg
+  Saved Visualization: streaks_output\streak_det_14_img000628_jpg.rf.6dc9522a3a079da33581d7b05af767a2.jpg
+  Image Resolution   : 640x640 px
+  Total Streaks Found: 1
+    - Streak #1: Class=proba_2 (ID=5) | Conf=0.8250 (82.50%) | BBox=[xmin=46.1, ymin=182.26, xmax=262.55, ymax=412.44] | Width=216.45px, Height=230.18px
+--------------------------------------------------------------------------------
+IMAGE [15]: img000664_jpg.rf.1a0045e230739b1de43fe38833c9b4f6.jpg
+  Saved Visualization: streaks_output\streak_det_15_img000664_jpg.rf.1a0045e230739b1de43fe38833c9b4f6.jpg
+  Image Resolution   : 640x640 px
+  Total Streaks Found: 2
+    - Streak #1: Class=proba_2 (ID=5) | Conf=0.9463 (94.63%) | BBox=[xmin=71.88, ymin=44.23, xmax=393.79, ymax=384.88] | Width=321.91px, Height=340.65px
+    - Streak #2: Class=soho (ID=9) | Conf=0.3856 (38.56%) | BBox=[xmin=451.86, ymin=158.43, xmax=575.14, ymax=254.08] | Width=123.28px, Height=95.65px
+--------------------------------------------------------------------------------
+IMAGE [16]: img000124_jpg.rf.dcf525bbc6c6c45a3e387abc33d15112.jpg
+  Saved Visualization: streaks_output\streak_det_16_img000124_jpg.rf.dcf525bbc6c6c45a3e387abc33d15112.jpg
+  Image Resolution   : 640x640 px
+  Total Streaks Found: 5
+    - Streak #1: Class=proba_2 (ID=5) | Conf=0.5735 (57.35%) | BBox=[xmin=198.47, ymin=139.52, xmax=534.64, ymax=435.13] | Width=336.17px, Height=295.61px
+    - Streak #2: Class=proba_2 (ID=5) | Conf=0.3811 (38.11%) | BBox=[xmin=304.66, ymin=180.96, xmax=599.33, ymax=434.52] | Width=294.67px, Height=253.56px
+    - Streak #3: Class=proba_2 (ID=5) | Conf=0.2959 (29.59%) | BBox=[xmin=184.46, ymin=164.32, xmax=451.09, ymax=440.35] | Width=266.63px, Height=276.03px
+    - Streak #4: Class=proba_2 (ID=5) | Conf=0.1666 (16.66%) | BBox=[xmin=196.28, ymin=97.73, xmax=588.93, ymax=476.62] | Width=392.65px, Height=378.89px
+    - Streak #5: Class=proba_2 (ID=5) | Conf=0.1553 (15.53%) | BBox=[xmin=410.61, ymin=194.12, xmax=588.35, ymax=394.22] | Width=177.74px, Height=200.1px
+--------------------------------------------------------------------------------
+IMAGE [17]: img000130_jpg.rf.a4d946c704abd619053b1ae42fb3f7c5.jpg
+  Saved Visualization: streaks_output\streak_det_17_img000130_jpg.rf.a4d946c704abd619053b1ae42fb3f7c5.jpg
+  Image Resolution   : 640x640 px
+  Total Streaks Found: 6
+    - Streak #1: Class=proba_2 (ID=5) | Conf=0.8296 (82.96%) | BBox=[xmin=312.05, ymin=261.38, xmax=632.03, ymax=515.21] | Width=319.98px, Height=253.83px
+    - Streak #2: Class=proba_2 (ID=5) | Conf=0.7294 (72.94%) | BBox=[xmin=297.59, ymin=264.41, xmax=635.86, ymax=616.07] | Width=338.27px, Height=351.66px
+    - Streak #3: Class=proba_2 (ID=5) | Conf=0.3422 (34.22%) | BBox=[xmin=377.38, ymin=263.27, xmax=627.6, ymax=462.28] | Width=250.22px, Height=199.01px
+    - Streak #4: Class=proba_2 (ID=5) | Conf=0.2896 (28.96%) | BBox=[xmin=407.52, ymin=278.5, xmax=635.45, ymax=502.91] | Width=227.93px, Height=224.41px
+    - Streak #5: Class=proba_2 (ID=5) | Conf=0.2657 (26.57%) | BBox=[xmin=395.04, ymin=287.67, xmax=636.48, ymax=598.58] | Width=241.44px, Height=310.91px
+    - Streak #6: Class=proba_2 (ID=5) | Conf=0.1630 (16.30%) | BBox=[xmin=435.34, ymin=267.78, xmax=631.38, ymax=446.66] | Width=196.04px, Height=178.88px
+--------------------------------------------------------------------------------
+IMAGE [18]: img000154_jpg.rf.fbb21d6523bdbd441fbf6e9747a25862.jpg
+  Saved Visualization: streaks_output\streak_det_18_img000154_jpg.rf.fbb21d6523bdbd441fbf6e9747a25862.jpg
+  Image Resolution   : 640x640 px
+  Total Streaks Found: 3
+    - Streak #1: Class=proba_2 (ID=5) | Conf=0.9014 (90.14%) | BBox=[xmin=106.41, ymin=115.31, xmax=491.65, ymax=640.0] | Width=385.24px, Height=524.69px
+    - Streak #2: Class=proba_2 (ID=5) | Conf=0.8146 (81.46%) | BBox=[xmin=110.75, ymin=258.42, xmax=480.81, ymax=639.89] | Width=370.06px, Height=381.47px
+    - Streak #3: Class=proba_2 (ID=5) | Conf=0.5042 (50.42%) | BBox=[xmin=283.99, ymin=130.84, xmax=501.44, ymax=355.27] | Width=217.45px, Height=224.43px
+--------------------------------------------------------------------------------
+IMAGE [19]: img000351_jpg.rf.d2125c9fc31022eef818f846607eb45f.jpg
+  Saved Visualization: streaks_output\streak_det_19_img000351_jpg.rf.d2125c9fc31022eef818f846607eb45f.jpg
+  Image Resolution   : 640x640 px
+  Total Streaks Found: 2
+    - Streak #1: Class=proba_2 (ID=5) | Conf=0.8861 (88.61%) | BBox=[xmin=114.52, ymin=149.59, xmax=583.56, ymax=529.85] | Width=469.04px, Height=380.26px
+    - Streak #2: Class=proba_2 (ID=5) | Conf=0.6165 (61.65%) | BBox=[xmin=218.2, ymin=180.32, xmax=577.38, ymax=541.09] | Width=359.18px, Height=360.77px
+--------------------------------------------------------------------------------
+IMAGE [20]: img000389_jpg.rf.97dff3fb31ad3cac475a0a257a17c0ee.jpg
+  Saved Visualization: streaks_output\streak_det_20_img000389_jpg.rf.97dff3fb31ad3cac475a0a257a17c0ee.jpg
+  Image Resolution   : 640x640 px
+  Total Streaks Found: 4
+    - Streak #1: Class=proba_2 (ID=5) | Conf=0.6801 (68.01%) | BBox=[xmin=3.98, ymin=0.0, xmax=410.35, ymax=337.51] | Width=406.37px, Height=337.51px
+    - Streak #2: Class=proba_2 (ID=5) | Conf=0.6469 (64.69%) | BBox=[xmin=0.0, ymin=9.3, xmax=207.01, ymax=405.5] | Width=207.01px, Height=396.2px
+    - Streak #3: Class=proba_2 (ID=5) | Conf=0.2827 (28.27%) | BBox=[xmin=9.65, ymin=0.0, xmax=417.43, ymax=229.71] | Width=407.78px, Height=229.71px
+    - Streak #4: Class=proba_2 (ID=5) | Conf=0.2084 (20.84%) | BBox=[xmin=6.31, ymin=0.0, xmax=382.11, ymax=163.35] | Width=375.8px, Height=163.35px
+--------------------------------------------------------------------------------
+IMAGE [21]: img000568_jpg.rf.b710221cc166df8b513617a529da988f.jpg
+  Saved Visualization: streaks_output\streak_det_21_img000568_jpg.rf.b710221cc166df8b513617a529da988f.jpg
+  Image Resolution   : 640x640 px
+  Total Streaks Found: 0
+  -> Status: No optical debris streak detected above conf threshold (0.15)
+--------------------------------------------------------------------------------
+IMAGE [22]: img000619_jpg.rf.3cb4b549742f05190dd5bdb2ca5c0dd2.jpg
+  Saved Visualization: streaks_output\streak_det_22_img000619_jpg.rf.3cb4b549742f05190dd5bdb2ca5c0dd2.jpg
+  Image Resolution   : 640x640 px
+  Total Streaks Found: 1
+    - Streak #1: Class=proba_2 (ID=5) | Conf=0.9708 (97.08%) | BBox=[xmin=155.05, ymin=63.55, xmax=538.73, ymax=507.85] | Width=383.68px, Height=444.3px
+--------------------------------------------------------------------------------
+IMAGE [23]: img000650_jpg.rf.15481aed4733c581cbe74062917de53b.jpg
+  Saved Visualization: streaks_output\streak_det_23_img000650_jpg.rf.15481aed4733c581cbe74062917de53b.jpg
+  Image Resolution   : 640x640 px
+  Total Streaks Found: 1
+    - Streak #1: Class=proba_2 (ID=5) | Conf=0.9695 (96.95%) | BBox=[xmin=221.51, ymin=90.65, xmax=561.6, ymax=538.84] | Width=340.09px, Height=448.19px
+--------------------------------------------------------------------------------
+IMAGE [24]: img000857_jpg.rf.aeb005b40f158c812a2efeb857db5809.jpg
+  Saved Visualization: streaks_output\streak_det_24_img000857_jpg.rf.aeb005b40f158c812a2efeb857db5809.jpg
+  Image Resolution   : 640x640 px
+  Total Streaks Found: 1
+    - Streak #1: Class=proba_2 (ID=5) | Conf=0.9959 (99.59%) | BBox=[xmin=0.0, ymin=123.21, xmax=383.96, ymax=633.25] | Width=383.96px, Height=510.04px
+--------------------------------------------------------------------------------
+IMAGE [25]: img001081_jpg.rf.fc0227dce52098f106c8408924a68db2.jpg
+  Saved Visualization: streaks_output\streak_det_25_img001081_jpg.rf.fc0227dce52098f106c8408924a68db2.jpg
+  Image Resolution   : 640x640 px
+  Total Streaks Found: 1
+    - Streak #1: Class=proba_2 (ID=5) | Conf=0.9902 (99.02%) | BBox=[xmin=234.72, ymin=297.62, xmax=577.62, ymax=638.51] | Width=342.9px, Height=340.89px
+--------------------------------------------------------------------------------
+IMAGE [26]: img010033_jpg.rf.32ef88458356049c1726406ec802d3ba.jpg
+  Saved Visualization: streaks_output\streak_det_26_img010033_jpg.rf.32ef88458356049c1726406ec802d3ba.jpg
+  Image Resolution   : 640x640 px
+  Total Streaks Found: 2
+    - Streak #1: Class=cheops (ID=0) | Conf=0.9697 (96.97%) | BBox=[xmin=81.87, ymin=238.28, xmax=501.99, ymax=532.28] | Width=420.12px, Height=294.0px
+    - Streak #2: Class=cheops (ID=0) | Conf=0.2109 (21.09%) | BBox=[xmin=268.17, ymin=260.83, xmax=508.59, ymax=521.73] | Width=240.42px, Height=260.9px
+--------------------------------------------------------------------------------
+IMAGE [27]: img010060_jpg.rf.32db362551fc968b85fadaf8f8fbf0cc.jpg
+  Saved Visualization: streaks_output\streak_det_27_img010060_jpg.rf.32db362551fc968b85fadaf8f8fbf0cc.jpg
+  Image Resolution   : 640x640 px
+  Total Streaks Found: 3
+    - Streak #1: Class=cheops (ID=0) | Conf=0.8702 (87.02%) | BBox=[xmin=76.02, ymin=6.46, xmax=409.64, ymax=408.8] | Width=333.62px, Height=402.34px
+    - Streak #2: Class=proba_3_csc (ID=6) | Conf=0.8004 (80.04%) | BBox=[xmin=47.5, ymin=33.9, xmax=415.16, ymax=418.62] | Width=367.66px, Height=384.72px
+    - Streak #3: Class=proba_3_csc (ID=6) | Conf=0.2015 (20.15%) | BBox=[xmin=56.65, ymin=156.37, xmax=419.28, ymax=430.29] | Width=362.63px, Height=273.92px
+--------------------------------------------------------------------------------
+IMAGE [28]: img010100_jpg.rf.78f8e08d88565770186093df69d4ac4b.jpg
+  Saved Visualization: streaks_output\streak_det_28_img010100_jpg.rf.78f8e08d88565770186093df69d4ac4b.jpg
+  Image Resolution   : 640x640 px
+  Total Streaks Found: 1
+    - Streak #1: Class=cheops (ID=0) | Conf=0.8933 (89.33%) | BBox=[xmin=272.89, ymin=309.2, xmax=637.12, ymax=637.98] | Width=364.23px, Height=328.78px
+--------------------------------------------------------------------------------
+IMAGE [29]: img010119_jpg.rf.2e8d8b70c59ff7d6bd5337bd8465c7ce.jpg
+  Saved Visualization: streaks_output\streak_det_29_img010119_jpg.rf.2e8d8b70c59ff7d6bd5337bd8465c7ce.jpg
+  Image Resolution   : 640x640 px
+  Total Streaks Found: 1
+    - Streak #1: Class=cheops (ID=0) | Conf=0.9697 (96.97%) | BBox=[xmin=79.73, ymin=171.83, xmax=447.25, ymax=545.61] | Width=367.52px, Height=373.78px
+--------------------------------------------------------------------------------
+IMAGE [30]: img010157_jpg.rf.bfb4e727b9a1c77c14ca42230bb98c83.jpg
+  Saved Visualization: streaks_output\streak_det_30_img010157_jpg.rf.bfb4e727b9a1c77c14ca42230bb98c83.jpg
+  Image Resolution   : 640x640 px
+  Total Streaks Found: 2
+    - Streak #1: Class=cheops (ID=0) | Conf=0.9984 (99.84%) | BBox=[xmin=58.19, ymin=0.0, xmax=505.45, ymax=323.14] | Width=447.26px, Height=323.14px
+    - Streak #2: Class=cheops (ID=0) | Conf=0.1691 (16.91%) | BBox=[xmin=60.67, ymin=0.0, xmax=515.59, ymax=214.97] | Width=454.92px, Height=214.97px
+--------------------------------------------------------------------------------
+
+SUMMARY: Processed 30 images, detected 59 total optical debris streaks.
+================================================================================

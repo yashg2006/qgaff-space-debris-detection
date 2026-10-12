@@ -1,0 +1,18 @@
+path: spark-2022-stream-1  # relative to the project root (run from there)
+
+train: val_subset/images
+val: val_subset/images
+
+nc: 11
+names:
+  0: debris
+  1: lisa_pathfinder
+  2: soho
+  3: xmm_newton
+  4: cheops
+  5: smart_1
+  6: proba_2
+  7: proba_3_csc
+  8: proba_3_ocs
+  9: earth_observation_sat_1
+  10: double_star

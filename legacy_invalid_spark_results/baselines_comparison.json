@@ -1,0 +1,136 @@
+{
+  "spark": {
+    "raw_backbone": {
+      "silhouette_mean": -0.272892564535141,
+      "silhouette_std": 0.0,
+      "params": 0,
+      "description": "Raw YOLOv8 backbone (no transformation)"
+    },
+    "pca_4d": {
+      "silhouette_mean": -0.27895110845565796,
+      "silhouette_std": 0.0,
+      "params": 0,
+      "description": "PCA (256\u21924 dimensions)"
+    },
+    "mlp": {
+      "silhouette_mean": 0.20040838420391083,
+      "silhouette_std": 0.025193679317609886,
+      "silhouette_all": [
+        0.19677278399467468,
+        0.23795485496520996,
+        0.16326969861984253,
+        0.1884915679693222,
+        0.21555301547050476
+      ],
+      "params": 43911,
+      "inference_ms": 1610.3387355804443,
+      "description": "Deep MLP (256\u2192128\u219264\u219232) with CrossEntropy"
+    },
+    "mlp_center_loss": {
+      "silhouette_mean": 0.522061425447464,
+      "silhouette_std": 0.027764151082724804,
+      "silhouette_all": [
+        0.49301478266716003,
+        0.5305836796760559,
+        0.4892885684967041,
+        0.563602089881897,
+        0.5338180065155029
+      ],
+      "params": 43911,
+      "description": "Deep MLP + Center Loss (strongest classical baseline)"
+    },
+    "simclr": {
+      "silhouette_mean": 0.33839417695999147,
+      "silhouette_std": 0.026992273157583624,
+      "silhouette_all": [
+        0.2948873043060303,
+        0.37357428669929504,
+        0.3244667053222656,
+        0.3554721772670746,
+        0.34357041120529175
+      ],
+      "params": 41607,
+      "description": "Supervised Contrastive (SimCLR-style) + CrossEntropy"
+    },
+    "qgaff": {
+      "silhouette_mean": 0.10359787940979004,
+      "silhouette_std": 0.025048236941690633,
+      "silhouette_all": [
+        0.09977125376462936,
+        0.1243811622262001,
+        0.06403272598981857,
+        0.09405135363340378,
+        0.13575290143489838
+      ],
+      "params": 9699,
+      "description": "QGAFF (proposed): 4-qubit PQC + Center Loss + Fused Latent Embedding"
+    }
+  },
+  "roboflow": {
+    "raw_backbone": {
+      "silhouette_mean": -0.04896334186196327,
+      "silhouette_std": 0.0,
+      "params": 0,
+      "description": "Raw YOLOv8 backbone (no transformation)"
+    },
+    "pca_4d": {
+      "silhouette_mean": -0.1134839579463005,
+      "silhouette_std": 0.0,
+      "params": 0,
+      "description": "PCA (256\u21924 dimensions)"
+    },
+    "mlp": {
+      "silhouette_mean": 0.8560287475585937,
+      "silhouette_std": 0.009013510801575683,
+      "silhouette_all": [
+        0.8393480181694031,
+        0.8545800447463989,
+        0.8648214340209961,
+        0.8591203093528748,
+        0.8622739315032959
+      ],
+      "params": 44043,
+      "inference_ms": 501.9306182861328,
+      "description": "Deep MLP (256\u2192128\u219264\u219232) with CrossEntropy"
+    },
+    "mlp_center_loss": {
+      "silhouette_mean": 0.6966924548149109,
+      "silhouette_std": 0.04501248295910291,
+      "silhouette_all": [
+        0.6704685688018799,
+        0.7489253878593445,
+        0.6658368110656738,
+        0.7527386546134949,
+        0.6454928517341614
+      ],
+      "params": 44043,
+      "description": "Deep MLP + Center Loss (strongest classical baseline)"
+    },
+    "simclr": {
+      "silhouette_mean": 0.8563007354736328,
+      "silhouette_std": 0.01009582858484358,
+      "silhouette_all": [
+        0.8585897088050842,
+        0.8489774465560913,
+        0.8714287877082825,
+        0.860499382019043,
+        0.8420083522796631
+      ],
+      "params": 41867,
+      "description": "Supervised Contrastive (SimCLR-style) + CrossEntropy"
+    },
+    "qgaff": {
+      "silhouette_mean": 0.408239609003067,
+      "silhouette_std": 0.01549829746000251,
+      "silhouette_all": [
+        0.4375187158584595,
+        0.40148675441741943,
+        0.3961656093597412,
+        0.4100032150745392,
+        0.3960237503051758
+      ],
+      "params": 9831,
+      "description": "QGAFF (proposed): 4-qubit PQC + Center Loss + Fused Latent Embedding"
+    }
+  }
+}

@@ -1,0 +1,62 @@
+[
+  {
+    "name": "Raw YOLOv8 backbone",
+    "silhouette": -0.272892564535141,
+    "params": 0,
+    "notes": "Baseline \u2014 no transformation"
+  },
+  {
+    "name": "Linear compression (256\u219232)",
+    "silhouette": -0.09024419635534286,
+    "params": 8455,
+    "notes": "No nonlinearity, CE training"
+  },
+  {
+    "name": "Linear + ReLU + BN (256\u219232)",
+    "silhouette": -0.08841774612665176,
+    "params": 8519,
+    "notes": "Nonlinear classical compression"
+  },
+  {
+    "name": "Angle mapping + Classical fusion",
+    "silhouette": -0.07706237584352493,
+    "params": 9675,
+    "notes": "Pre-quantum angle mapping; no quantum circuit"
+  },
+  {
+    "name": "Quantum PQC (untrained random weights)",
+    "silhouette": -0.25283920764923096,
+    "params": 9699,
+    "notes": "Untrained PQC \u2014 unitary inductive bias only"
+  },
+  {
+    "name": "Quantum PQC + CrossEntropy only",
+    "silhouette": -0.10784649103879929,
+    "params": 9699,
+    "notes": "CE training only (no Center Loss)"
+  },
+  {
+    "name": "Quantum PQC + Center Loss only",
+    "silhouette": 0.48840802907943726,
+    "params": 9699,
+    "notes": "Center Loss training only (no CE)"
+  },
+  {
+    "name": "Full QGAFF (PQC + Fusion + CE + Center)",
+    "silhouette": 0.39966243505477905,
+    "params": 9699,
+    "notes": "Proposed method \u2014 all components active"
+  },
+  {
+    "name": "Linear + BN + Center Loss (no PQC)",
+    "silhouette": 0.20580390095710754,
+    "params": 8519,
+    "notes": "CE + Center Loss, no quantum block \u2014 classical control for Center Loss effect"
+  },
+  {
+    "name": "Angle mapping + Fusion + Center Loss (no PQC)",
+    "silhouette": 0.4002119302749634,
+    "params": 9675,
+    "notes": "CE + Center Loss + angle fusion; no quantum circuit \u2014 closest classical analog to QGAFF"
+  }
+]

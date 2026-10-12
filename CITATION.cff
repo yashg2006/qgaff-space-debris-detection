@@ -1,0 +1,28 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it using the metadata from this file."
+type: software
+title: "Quantum-Guided Feature Transformation for Cross-Domain Space-Debris Detection"
+authors:
+  - given-names: "Yash"
+    family-names: "Gharat"
+    affiliation: "School of Computer Science and Engineering, VIT Chennai 600127"
+  - given-names: "Ayushi"
+    family-names: "Singh"
+    affiliation: "School of Computer Science and Engineering, VIT Chennai 600127"
+  - given-names: "Dhanika"
+    family-names: "Bhat"
+    affiliation: "School of Computer Science and Engineering, VIT Chennai 600127"
+  - given-names: "Sherly"
+    family-names: "Alphonse"
+    affiliation: "School of Computer Science and Engineering, VIT Chennai 600127"
+  - given-names: "D."
+    family-names: "Kavitha"
+    affiliation: "School of Computer Science and Engineering, VIT Chennai 600127"
+contact:
+  - given-names: "Sherly"
+    family-names: "Alphonse"
+    affiliation: "School of Computer Science and Engineering, VIT Chennai 600127"
+version: 1.0.0
+date-released: 2026-10-13
+license: MIT
+repository-code: "https://github.com/yashg2006/qgaff-space-debris-detection"

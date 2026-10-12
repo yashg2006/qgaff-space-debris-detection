@@ -1,0 +1,130 @@
+{
+  "SPARK-2022": {
+    "raw": {
+      "silhouette": -0.272892564535141,
+      "fdr": 0.13345112371798998,
+      "mean_intra": 0.13128750987611457,
+      "mean_inter": 0.27627170682794117
+    },
+    "qgaff_seeds": [
+      {
+        "seed": 0,
+        "silhouette": 0.3443411886692047,
+        "fdr": 1.1099086173622283,
+        "mean_intra_dist": 0.09498910333764045,
+        "mean_inter_dist": 0.6185460050564503,
+        "inter_intra_ratio": 6.511757420701827
+      },
+      {
+        "seed": 7,
+        "silhouette": 0.44151583313941956,
+        "fdr": 1.2423070025978402,
+        "mean_intra_dist": 0.09438897634212848,
+        "mean_inter_dist": 0.6369248014868772,
+        "inter_intra_ratio": 6.747872679860042
+      },
+      {
+        "seed": 21,
+        "silhouette": 0.3792171776294708,
+        "fdr": 1.1619774852764677,
+        "mean_intra_dist": 0.08861615117377797,
+        "mean_inter_dist": 0.5893246190541591,
+        "inter_intra_ratio": 6.650307021890121
+      },
+      {
+        "seed": 42,
+        "silhouette": 0.3907429575920105,
+        "fdr": 1.2176984669849227,
+        "mean_intra_dist": 0.0819992873602641,
+        "mean_inter_dist": 0.5984545362871879,
+        "inter_intra_ratio": 7.298289390730762
+      },
+      {
+        "seed": 99,
+        "silhouette": 0.3718246817588806,
+        "fdr": 1.2068748328539571,
+        "mean_intra_dist": 0.08107027774077967,
+        "mean_inter_dist": 0.5894143021586845,
+        "inter_intra_ratio": 7.270411688645145
+      }
+    ],
+    "qgaff_summary": {
+      "silhouette_mean": 0.38552836775779725,
+      "silhouette_std": 0.03189292736349556,
+      "silhouette_min": 0.3443411886692047,
+      "silhouette_max": 0.44151583313941956,
+      "fdr_mean": 1.1877532810150833,
+      "fdr_std": 0.04682443753257248,
+      "intra_mean": 0.08821275919091813,
+      "intra_std": 0.005896600662101198,
+      "inter_mean": 0.6065328528086718,
+      "inter_std": 0.0185602459817449,
+      "ratio_mean": 6.89572764036558,
+      "ratio_std": 0.3261808080803786
+    }
+  },
+  "Roboflow": {
+    "raw": {
+      "silhouette": -0.04896334186196327,
+      "fdr": 1.8720107422572654,
+      "mean_intra": 0.17722839174500432,
+      "mean_inter": 0.5700687076395208
+    },
+    "qgaff_seeds": [
+      {
+        "seed": 0,
+        "silhouette": 0.6365723609924316,
+        "fdr": 18.438339143254506,
+        "mean_intra_dist": 0.05334522511106897,
+        "mean_inter_dist": 1.0899238340746273,
+        "inter_intra_ratio": 20.431515873703862
+      },
+      {
+        "seed": 7,
+        "silhouette": 0.6004106402397156,
+        "fdr": 20.460551063956842,
+        "mean_intra_dist": 0.04861590007701552,
+        "mean_inter_dist": 1.0880519542450255,
+        "inter_intra_ratio": 22.38057775626484
+      },
+      {
+        "seed": 21,
+        "silhouette": 0.610690712928772,
+        "fdr": 19.13562623387345,
+        "mean_intra_dist": 0.05165877684531921,
+        "mean_inter_dist": 1.0860528473664415,
+        "inter_intra_ratio": 21.02358771665847
+      },
+      {
+        "seed": 42,
+        "silhouette": 0.5998186469078064,
+        "fdr": 18.219028672056854,
+        "mean_intra_dist": 0.054007651456388604,
+        "mean_inter_dist": 1.0819141841774638,
+        "inter_intra_ratio": 20.032608990940936
+      },
+      {
+        "seed": 99,
+        "silhouette": 0.6543141007423401,
+        "fdr": 20.733130617316306,
+        "mean_intra_dist": 0.04776283313471629,
+        "mean_inter_dist": 1.0861626998998901,
+        "inter_intra_ratio": 22.74075061869948
+      }
+    ],
+    "qgaff_summary": {
+      "silhouette_mean": 0.6203612923622132,
+      "silhouette_std": 0.021583052851661847,
+      "silhouette_min": 0.5998186469078064,
+      "silhouette_max": 0.6543141007423401,
+      "fdr_mean": 19.397335146091592,
+      "fdr_std": 1.0287223788652202,
+      "intra_mean": 0.051078077324901716,
+      "intra_std": 0.0024945034155029727,
+      "inter_mean": 1.0864211039526896,
+      "inter_std": 0.002662461357889808,
+      "ratio_mean": 21.321808191253517,
+      "ratio_std": 1.0656435655924301
+    }
+  }
+}

@@ -1,0 +1,139 @@
+{
+  "config": {
+    "data": "revision_experiments/spark_balanced",
+    "n": 770,
+    "K": 11,
+    "train": 539,
+    "test": 231,
+    "split_seed": 42,
+    "test_size": 0.3,
+    "seeds": [
+      0,
+      7,
+      42
+    ],
+    "epochs": 60,
+    "batch": 32,
+    "lr": 0.003,
+    "weight_decay": 0.0001,
+    "center_lr": 0.05,
+    "center_weight": 0.3,
+    "embed_dim": 32,
+    "metrics_on": "test split, ground-truth labels",
+    "silhouette": "cosine, L2-normalized vectors"
+  },
+  "raw_features": {
+    "params": 0,
+    "runs": [
+      {
+        "seed": 0,
+        "silhouette": -0.18930834531784058,
+        "accuracy": 0.7056277056277056
+      },
+      {
+        "seed": 7,
+        "silhouette": -0.18930834531784058,
+        "accuracy": 0.7056277056277056
+      },
+      {
+        "seed": 42,
+        "silhouette": -0.18930834531784058,
+        "accuracy": 0.7056277056277056
+      }
+    ],
+    "silhouette": {
+      "mean": -0.1893,
+      "std": 0.0,
+      "values": [
+        -0.1893,
+        -0.1893,
+        -0.1893
+      ]
+    },
+    "accuracy": {
+      "mean": 0.7056,
+      "std": 0.0,
+      "values": [
+        0.7056,
+        0.7056,
+        0.7056
+      ]
+    }
+  },
+  "MLP": {
+    "params": 44043,
+    "runs": [
+      {
+        "silhouette": 0.20213787257671356,
+        "accuracy": 0.7229437229437229,
+        "seed": 0
+      },
+      {
+        "silhouette": 0.20428913831710815,
+        "accuracy": 0.7142857142857143,
+        "seed": 7
+      },
+      {
+        "silhouette": 0.19376254081726074,
+        "accuracy": 0.7012987012987013,
+        "seed": 42
+      }
+    ],
+    "silhouette": {
+      "mean": 0.2001,
+      "std": 0.0056,
+      "values": [
+        0.2021,
+        0.2043,
+        0.1938
+      ]
+    },
+    "accuracy": {
+      "mean": 0.7128,
+      "std": 0.0109,
+      "values": [
+        0.7229,
+        0.7143,
+        0.7013
+      ]
+    }
+  },
+  "QGAFF": {
+    "params": 9831,
+    "runs": [
+      {
+        "silhouette": 0.11583276093006134,
+        "accuracy": 0.7186147186147186,
+        "seed": 0
+      },
+      {
+        "silhouette": 0.12530294060707092,
+        "accuracy": 0.7272727272727273,
+        "seed": 7
+      },
+      {
+        "silhouette": 0.12428642809391022,
+        "accuracy": 0.7142857142857143,
+        "seed": 42
+      }
+    ],
+    "silhouette": {
+      "mean": 0.1218,
+      "std": 0.0052,
+      "values": [
+        0.1158,
+        0.1253,
+        0.1243
+      ]
+    },
+    "accuracy": {
+      "mean": 0.7201,
+      "std": 0.0066,
+      "values": [
+        0.7186,
+        0.7273,
+        0.7143
+      ]
+    }
+  }
+}

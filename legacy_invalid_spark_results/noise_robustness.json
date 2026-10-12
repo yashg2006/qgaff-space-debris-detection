@@ -1,0 +1,90 @@
+[
+  {
+    "key": "clean",
+    "description": "None (clean)",
+    "silhouette_mean": 0.416129395365715,
+    "silhouette_std": 0.02538643777370453,
+    "silhouette_all": [
+      0.3907429575920105,
+      0.44151583313941956
+    ],
+    "degradation_pct": 0.0
+  },
+  {
+    "key": "gaussian_mild",
+    "description": "Gaussian noise \u03c3=0.05",
+    "silhouette_mean": 0.5178627073764801,
+    "silhouette_std": 0.01630893349647522,
+    "silhouette_all": [
+      0.5015537738800049,
+      0.5341716408729553
+    ],
+    "degradation_pct": 24.44751870433994
+  },
+  {
+    "key": "gaussian_moderate",
+    "description": "Gaussian noise \u03c3=0.15",
+    "silhouette_mean": 0.5315088629722595,
+    "silhouette_std": 0.07493948936462402,
+    "silhouette_all": [
+      0.4565693736076355,
+      0.6064483523368835
+    ],
+    "degradation_pct": 27.726824544051997
+  },
+  {
+    "key": "gaussian_heavy",
+    "description": "Gaussian noise \u03c3=0.25",
+    "silhouette_mean": 0.6290566027164459,
+    "silhouette_std": 0.12530145049095154,
+    "silhouette_all": [
+      0.5037551522254944,
+      0.7543580532073975
+    ],
+    "degradation_pct": 51.16850893263978
+  },
+  {
+    "key": "blur_mild",
+    "description": "Gaussian blur \u03c3=1.0",
+    "silhouette_mean": 0.25085383653640747,
+    "silhouette_std": 0.006365180015563965,
+    "silhouette_all": [
+      0.2444886565208435,
+      0.25721901655197144
+    ],
+    "degradation_pct": -39.71734760215192
+  },
+  {
+    "key": "salt_pepper",
+    "description": "Salt-and-pepper 2%",
+    "silhouette_mean": 0.789239227771759,
+    "silhouette_std": 0.031660258769989014,
+    "silhouette_all": [
+      0.820899486541748,
+      0.75757896900177
+    ],
+    "degradation_pct": 89.66197429564353
+  },
+  {
+    "key": "brightness_up",
+    "description": "Brightness +30%",
+    "silhouette_mean": 0.3985912948846817,
+    "silhouette_std": 0.017354264855384827,
+    "silhouette_all": [
+      0.3812370300292969,
+      0.41594555974006653
+    ],
+    "degradation_pct": -4.214578598436717
+  },
+  {
+    "key": "brightness_down",
+    "description": "Brightness \u221240%",
+    "silhouette_mean": 0.3821992874145508,
+    "silhouette_std": 0.023621797561645508,
+    "silhouette_all": [
+      0.3585774898529053,
+      0.4058210849761963
+    ],
+    "degradation_pct": -8.153739737565859
+  }
+]
