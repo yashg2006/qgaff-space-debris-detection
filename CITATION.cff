@@ -26,3 +26,11 @@ version: 1.0.0
 date-released: 2026-10-13
 license: MIT
 repository-code: "https://github.com/yashg2006/qgaff-space-debris-detection"
+doi: 10.5281/zenodo.23325631
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.23325631
+    description: "Concept DOI: all versions, resolves to the latest release"
+  - type: doi
+    value: 10.5281/zenodo.23325632
+    description: "Version DOI: v1.0.0"

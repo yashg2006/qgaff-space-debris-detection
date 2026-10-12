@@ -1,5 +1,7 @@
 # Quantum-Guided Feature Transformation for Cross-Domain Space-Debris Detection
 
+[![DOI](https://zenodo.org/badge/1416082997.svg)](https://doi.org/10.5281/zenodo.23325631)
+
 Code for QGAFF, a feature transformation applied to YOLOv8 backbone features (layer-8 C2f
 output, global-average-pooled to 256-d). The detector is trained on the Roboflow
 space-debris dataset only and is then evaluated, unchanged, on two other datasets:
@@ -177,3 +179,8 @@ flowchart/flowchart.png                pipeline flowchart
 ## License and citation
 
 MIT License (see [`LICENSE`](LICENSE)). Citation metadata is in [`CITATION.cff`](CITATION.cff).
+
+The code is archived on Zenodo:
+
+- All versions (concept DOI, resolves to the latest release): https://doi.org/10.5281/zenodo.23325631
+- Version 1.0.0: https://doi.org/10.5281/zenodo.23325632
